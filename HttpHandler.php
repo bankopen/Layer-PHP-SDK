@@ -35,7 +35,7 @@ class HttpHandler
         }
 
         return [
-            'Authorization' => 'Bearer '. $this->_config()['ACCESS_KEY'] . ":" .$this->_config()['SECRET_KEY']),
+            'Authorization' => 'Bearer '. $this->_config()['ACCESS_KEY'] . ":" .$this->_config()['SECRET_KEY'],
             'Content-Type' => 'application/json'
         ];
     }
